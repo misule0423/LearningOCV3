@@ -16,7 +16,7 @@ int main(int argc, char** argv){
 
 	waitKey(0);
 
-	destroyWindow("Example1");
+	destroyWindow("Cat");
 
 	return 0;
 
