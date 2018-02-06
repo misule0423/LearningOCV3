@@ -1,11 +1,22 @@
 #include <iostream>
+#include <opencv2\highgui.hpp>
 
 using namespace std;
+using namespace cv;
 
-int main(){
+int main(int argc, char** argv){
 
-	cout << "Hi" << endl;
+	Mat img = imread("cat.jpg");
 
+	if (img.empty()) return -1;
+
+	namedWindow("Cat", CV_WINDOW_AUTOSIZE);
+
+	imshow("Cat", img);
+
+	waitKey(0);
+
+	destroyWindow("Example1");
 
 	return 0;
 
