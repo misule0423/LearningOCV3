@@ -8,13 +8,13 @@ using namespace cv;
 int main(int argc, char** argv){
 
 	namedWindow("Cat", WINDOW_AUTOSIZE);
-	
+
 	VideoCapture cap;
-	
+
 	cap.open("cat.avi");
-	
+
 	Mat frame;
-	
+
 	for (;;) {
 
 		cap >> frame;
