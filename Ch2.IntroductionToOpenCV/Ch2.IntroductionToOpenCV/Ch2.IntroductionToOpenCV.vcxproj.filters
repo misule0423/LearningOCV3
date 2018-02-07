@@ -24,5 +24,8 @@
     <ClCompile Include="02-4.SimpleTransformation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="02-5.NotSoSimpleTransformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
