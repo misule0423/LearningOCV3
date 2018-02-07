@@ -21,7 +21,7 @@
     <ClCompile Include="02-1.DisplayPicture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="02-5.SimpleTransformation.cpp">
+    <ClCompile Include="02-4.SimpleTransformation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
