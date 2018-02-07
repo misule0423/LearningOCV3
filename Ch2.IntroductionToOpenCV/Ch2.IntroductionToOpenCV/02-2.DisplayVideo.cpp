@@ -7,7 +7,7 @@ using namespace cv;
 
 int main(int argc, char** argv){
 
-	namedWindow("Example3", WINDOW_AUTOSIZE);
+	namedWindow("Cat", WINDOW_AUTOSIZE);
 	
 	VideoCapture cap;
 	
@@ -16,15 +16,14 @@ int main(int argc, char** argv){
 	Mat frame;
 	
 	for (;;) {
-	
+
 		cap >> frame;
-		
+
 		if (frame.empty()) break; // Ran out of film
-		
-		imshow("Example3", frame);
-		
-		if (waitKey(1000) == 27) break;
-		}
+
+		imshow("Cat", frame);
+
+		if (waitKey(33) == 27) break;	}
 	return 0;
 
 }
