@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="02-2.DisplayVideo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="02-1.DisplayPicture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
