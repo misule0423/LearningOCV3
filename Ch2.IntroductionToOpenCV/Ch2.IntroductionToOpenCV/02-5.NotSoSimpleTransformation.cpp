@@ -19,7 +19,7 @@ int main(int argc, char** argv) {
 	cv::Canny(img_gry, img_cny, 10, 100, 3, true);
 	cv::imshow("Canny", img_cny);
 
-
 	cv::waitKey(0);
+
 	return 0;
 }
